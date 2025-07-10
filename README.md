@@ -1,7 +1,7 @@
 # Milestones Project
 This is a simple website created by Alexander as part of a Milestones assignment from *RevoU*.
 
-It includes a personal background summary and highlights key projects from my learning journey.
+It includes a Homepage, a personal background summary, projects and contact info from.
 The website is built using basic **HTML**, **CSS** and a **local Image**.
 
 To run the project locally, clone the repository and open it in **VS code**. 
