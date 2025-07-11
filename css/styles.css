@@ -29,7 +29,7 @@ h1          {text-align: center;
 section     {margin-top: 100px;
             font-style: italic;}
 
-footer      {margin-top: 200px;}
+#form        {margin-top: 200px;}
 
 img         {width: 200px;
             height: 200px;
@@ -43,3 +43,7 @@ form label,
 form input,
 form button {display: block;
             margin: 10px;}
+
+footer      {margin-top: 200px;}
+
+.back       {margin-top: 100px;}
