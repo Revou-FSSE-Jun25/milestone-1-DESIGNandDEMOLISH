@@ -33,11 +33,18 @@ This webpage is part of my learning journey at RevoU. It includes:
 1. Clone the repository.
 ![my image](image/clone%20url.png)
 
-    copy the url from **code** button (grean)
-    open **VS Code** and use command prompt **"git clone url(copy url)"**
+     - Click the green **Code** button and copy the repository URL.
+     - Open **VS Code** and launch the terminal.
+     - Run the command:
 
-2. Open the project folder in **VS Code**.  
-3. Use the **Live Server** extension to open the site in your browser.
+     ```bash
+     git clone <paste-the-url-here>
+     ```
+
+2. **Open the project folder** in VS Code.  
+3. Install the **Live Server** extension (if not already installed).  
+4. Right-click the `index.html` file and select **"Open with Live Server"** to preview it in your browser.
+
 
 ---
 
