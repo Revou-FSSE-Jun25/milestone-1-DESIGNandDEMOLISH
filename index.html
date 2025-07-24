@@ -9,39 +9,58 @@
         <meta name="description" content="This is simple websites created from basic html and css">
         <meta name="author" content="Alex">
     </head>
+
+<!--------This is body and header----->
     <body>
         <header>
-            <nav id="menu">
-                <ul id=top>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="project.html">Project</a></li>
-                </ul>
-            </nav>
-            <h1><strong>HTML PROJECT</strong></h1>
+            <section class="nav-cont">
+                <nav id="menu" class="nav">
+                    <ul class="menu">
+                        <li class="menu-list"><a href="index.html" class="menu-link">Home</a></li>
+                        <li class="menu-list"><a href="about.html" class="menu-link">About Me</a></li>
+                        <li class="menu-list"><a href="project.html" class="menu-link">Project</a></li>
+                        <li class="menu-list"><a href="" class="menu-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section class="h1-con">
+                <h1>
+                    <span class="left">WELCOME <sub class="sub">to</sub></span>
+                    <span class="right"><sup class="supper">my</sup> PROJECT SITE</span>
+                </h1>
+            </section>
         </header>
+        
+<!---------This is Main----------->
 
         <main>
-            <section id="header">
-                <h2>I'm Alexander, a software Engineer</h2>
-                <p class="head">
-                    This is a simple HTML file that I developed as a <strong><em>Software Engineering</em></strong> student. 
-                    It includes a personal background summary and highlights key projects from my learning journey.
-                    It reflects both my foundational skills and my enthusiasm for continuous growth in the field
-                </p>
-            </section>
 
-            <section id="note">    
-                <h2>Extra Note</h2>
-                <p>
-                    I sincerely seek your continued support, as I am confident that with the guidance and mentorship of RevoU and its community, 
-                    I will be able to further enhance my capabilities and grow into a proficient professional in this field.
-                </p>
-            </section>
+<!-------This is Intro section---->
+            <div class="intro">
+                <section>
+                    <h2>I'm Alexander, a software Engineer</h2>
+                    <p class="content">
+                        This is a simple HTML file that I developed as a <strong><em>Software Engineering</em></strong> student. 
+                        It includes a personal background summary and highlights key projects from my learning journey.
+                        It reflects both my foundational skills and my enthusiasm for continuous growth in the field
+                    </p>
+                </section>
 
-            <section id="form">
+                <section>    
+                    <h2>Extra Note</h2>
+                    <p class="content">
+                        I sincerely seek your continued support, as I am confident that with the guidance and mentorship of RevoU and its community, 
+                        I will be able to further enhance my capabilities and grow into a proficient professional in this field.
+                    </p>
+                </section>
+            </div>
+
+
+
+            <!--<section>
                 <form action="contact.html">
-
+                
                 <fieldset>
                 <legend>Contact me</legend>
 
@@ -57,10 +76,12 @@
                     <button type="submit">Submit</button>
                 </fieldset>
                 </form>
-            </section>
+            </section>-->
 
-            <p><a href="#top" aria-label="back to top of page">Back to top</a></p>
+            <p><a class="back-top" href="#menu" aria-label="back to top of page">Back to top</a></p>
         </main>
+
+<!------------this is Foorter------------>
 
         <footer>
             <address>
