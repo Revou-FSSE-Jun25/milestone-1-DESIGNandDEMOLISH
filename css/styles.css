@@ -1,82 +1,252 @@
-body        {margin: 0;
-            height: 100%;
-            background-color: rgb(151, 190, 224);}
-
+.body       {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: rgb(76, 164, 226);
+}
 
 /*This is Header*/ 
 
-header      {width: 100%}
+.container { 
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+}
 
-.nav-con    {}
+nav  {
+    background-color: #7fe6df;
+    height: auto;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+}
 
-.nav        {background-color: rgb(144, 219, 244);}
+ul         {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0 0 0;
+}
 
-.menu       {display: flex;
-            justify-content: space-evenly;
-            list-style: none;
-            padding-left: 0;
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-left: 20px;
-            margin-right: 20px;}
+.menu-list {
+    list-style: none;    
+}
 
-.menu-link  {text-decoration: none;
-            color: black;
-            font-size: 20px;}
-
-.h1-con     {background-image: url(/image/tower1.jpg);
-            width: 100%;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            margin-bottom: 30px;
-            margin-top: 0;}
-
-h1          {display: grid;
-            width:fit-content;
-            border-radius: 0 50px 0 50px;
-            background-color: transparent;
-            margin: auto;
-            font-size: 40px;
-            text-align: center;
-            font-style: italic;
-            font-weight: bolder;
-            width: 100vh;
-            height: 60vh;}
-
-h1 .left   {display: flex;
-            align-items: end;
-            justify-content: center;}
+.menu-link  {
+    text-decoration: none;
+    color: black;
+}
 
 
-.sub        {font-size: 20px;}
+header      {
+   /* background-image: url(/image/tower1.jpg);
+    height: 40vh;*/
+}
 
-.supper     {font-size: 20px;}
+.h1-cont     {
+    background-image: url(/image/tower1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0 10px 30px 10px;    
+    border-radius: 0 0 20px 20px;
+    box-shadow: 20px 20px 50px rgba(65, 65, 67, 0.5);        
+}
+
+.h1          {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px;
+    width: 250px;
+    border-radius: 0 45px 0 45px;
+    box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5);
+    border-color: transparent;
+}
 
 
 /*This is main css*/
 
-.intro      {border: solid transparent;
-            margin: auto;
-            width: 100vh;
-            border-radius: 30px;
-            box-shadow: 10px 10px 10px rgb(125, 110, 110);}
+main        {
+    margin: 5px 20px 5px 20px;
+}
 
-h2          {text-align: center;
-            margin: 30px;
-            font-size: 20px;}
+.intro       {
+    background-color: #7ccfee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5); 
+}
 
-.content    {margin: 20px;
-            padding: 10px;
-            font-size: 16px;}
+.img          {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5); 
+}
 
-.back-top   {margin: 20px;
-            font-size: 20px;}
+.about       {
+    background-color: #7ccfee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5); 
+}
 
+.project     {
+    background-color: #7ccfee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5); 
+}
 
+.form         {
+    display: flex;
+    flex-direction: column;
+    background-color: #7fe6df;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5); 
+}
+
+fieldset         {
+    border: 2px solid transparent;
+    display: grid;
+    
+    gap: 10px;}
+
+input   {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: max-content;
+}  
+textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button  {
+    padding: 10px;
+    margin: 5px 20px 0 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;}
 
  /*Thsi is footer CSS*/
 
-footer      {margin-top: 200px;}
+footer      {
+    background-color: #7cb3d6;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
-.back       {margin-top: 100px;}
+.link   {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-link {
+    list-style: none;
+    margin: 5px 0;
+}
+
+body        {
+    margin-top: 200px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(76, 164, 226);
+}
+
+
+h1         {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/*pc setup*/
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .img {
+        margin-left: 30px;
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 10px 10px 15px rgba(42, 42, 43, 0.5);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul {
+        gap: 40px;    
+    }
+    
+    main {
+        width: 80%;
+        margin: 20px 150px 20px 150px;
+    }
+    
+    .h1-cont {
+        height: 50vh;
+    }
+    
+    .h1 {
+        width: 400px;
+        font-size: 2.5em;
+        padding: 20px;
+       }
+
+    button  {
+        width: 150px;
+        font-size: 1.2em;
+        margin: 0 60px 0 60px;
+    }
+
+    .form {
+        width: 60%;
+        margin: auto;
+    }
+
+    h1  {
+        font-size: 3em;
+        margin: 40px 0;
+    }
+
+   .about   {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+}}

@@ -1,27 +1,27 @@
 # Milestones Project
 
-This is a simple website created by Alexander as part of a Milestones assignment from *RevoU*.  
+This is a simple mobile-first website created by Alexander as part of a Milestones assignment from *RevoU*.  
 The site is built using basic **HTML**, **CSS**, and includes a **local image**.
 
 ## Project Overview
 
-This webpage is part of my learning journey at RevoU. It includes:
+This mobile-first webpage is part of my learning journey at RevoU. It includes:
 
-- **Home**
+- **Introduction**
 
-![my image](image/Homes.png)
+![my image](image/Intro.png)
 
      A welcome page introducing who I am and what this project is about my start in Software Engineering and my eagerness to keep learning.
   
 - **About Me** 
-![my image](image/aboutm.png)
+![my image](image/About.png)
      A brief background about me as a student, my interests in tech, and my goals.  
 - **Projects** 
-![my image](image/projects.png)
+![my image](image/project.png)
      Showcases this first web project, highlighting the skills I’m developing.  
-- **Contact** 
-![my image](image/Contact.png)
-     Ways to get in touch with me via **Email**, **GitHub**, **LinkedIn**, and **WhatsApp**.
+- **FEED BACK & Contact** 
+![my image](image/Feedandcontact.png)
+     Feed back and  many ways to get in touch with me via **Email**, **GitHub**, **LinkedIn**, and **WhatsApp**.
 
 ## Technologies Used
 
