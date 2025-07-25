@@ -39,7 +39,7 @@ ul         {
 }
 
 .h1-cont     {
-    background-image: url(/image/tower1.jpg);
+    background-image: url(../image/tower1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
