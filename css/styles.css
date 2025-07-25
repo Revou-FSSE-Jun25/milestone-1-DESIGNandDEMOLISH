@@ -38,14 +38,8 @@ ul         {
     color: black;
 }
 
-
-header      {
-   /* background-image: url(/image/tower1.jpg);
-    height: 40vh;*/
-}
-
 .h1-cont     {
-    background-image: url(/image/tower1.jpg);
+    background-image: url(../image/tower1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,7 +193,7 @@ h1         {
 
     .img {
         margin-left: 30px;
-        width: 400px;
+        width: 350px;
         height: auto;
         border-radius: 10px;
         margin-bottom: 20px;
